@@ -33,7 +33,7 @@ console.log(`小明買完飯,他還剩下${walletTotal - cost}元`
 //4-1
 let trafficLight = "red"
 let countdownSeconds = 35;
-let isCanPass = false;
+let canPass = false;
 //4-2
 let peopleNum = 10;
 //4-3
@@ -48,12 +48,12 @@ let title = "【最終試煉】";
 /***   作業 5 填答區結束   **/
 
 /***   作業 6 填答區開始   **/
-let a = 1;//宣告變數a 值1
-let b = 0;//宣告變數b 值0
-a = 3;//重新賦予a值3
-a = b + 2;//重新賦予a值0+2=2
+let a = 1;//宣告變數a賦予值1是數字型別
+let b = 0;//宣告變數b賦予值0是數字型別
+a = 3;//重新賦予a值3是數字型別
+a = b + 2;//重新賦予a值0+2=2是數字型別
 a - b;//只是計算沒有賦予 2-2=0 目前a的值還是2
-b += 1;//重新賦予b值b+1=1
+b += 1;//重新賦予b值b+1=1是數字型別
 //答案變數a值為2,變數b值為1
 /***   作業 6 填答區結束   **/
 
@@ -102,5 +102,5 @@ let h = 123;//數值型別
 let i = g + h;//字串型別
 let j = true;//布林值
 let k = h + h;//數值型別
-let l = j + k;//undefined
+let l = j + k;//數值型別
 /***   作業 10 填答區結束   **/
